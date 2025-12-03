@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WhereStuff - iOS app for tracking items in storage. Support, Privacy Policy, and contact information.">
+    <meta name="keywords" content="WhereStuff, iOS, storage, items, organization, tracking">
+    <meta name="author" content="cybercrot">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="WhereStuff - Support">
+    <meta property="og:description" content="WhereStuff - Track where your items are stored. Support page with Privacy Policy and contact information.">
+    <meta property="og:type" content="website">
+    
+    <title>WhereStuff - Support</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">WhereStuff</h1>
+                <p class="tagline">Track where your items are stored</p>
+            </div>
+            <nav class="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="#privacy" class="nav-link">Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- About the App -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About the App</h2>
+                <div class="section-content">
+                    <p class="intro-text">
+                        WhereStuff is an iOS application designed to help you track and organize items stored in different locations. 
+                        Never lose track of where you've stored your belongings again.
+                    </p>
+                    
+                    <h3 class="subsection-title">Main Features</h3>
+                    <ul class="features-list">
+                        <li><strong>Add items with photos</strong> - Capture or select images for your stored items</li>
+                        <li><strong>Organize by storage places</strong> - Create and manage multiple storage locations</li>
+                        <li><strong>Tagging system</strong> - Use tags to categorize and quickly find items</li>
+                        <li><strong>Search and filtering</strong> - Quickly locate items using powerful search and filter options</li>
+                        <li><strong>Data export</strong> - Export your data in PDF or CSV format for backup or sharing</li>
+                    </ul>
+                    
+                    <div class="app-info">
+                        <p><strong>Version:</strong> 1.0</p>
+                        <p><strong>Platform:</strong> iOS 17.0+</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Developers -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Contact Developers</h2>
+                <div class="section-content">
+                    <p class="intro-text">
+                        We're always happy to receive your feedback, suggestions, and bug reports. 
+                        Your input helps us make WhereStuff better.
+                    </p>
+                    
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:where-stuff-support@proton.me" class="contact-link">where-stuff-support@proton.me</a></p>
+                        <p><strong>Response time:</strong> Usually within 24 hours</p>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <h3 class="subsection-title">Send us a message</h3>
+                        <form id="contact-form" class="contact-form" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject...</option>
+                                    <option value="question">Question</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="suggestion">Suggestion</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <p class="form-note">
+                            Note: You can also contact us directly via email at 
+                            <a href="mailto:where-stuff-support@proton.me" class="contact-link">where-stuff-support@proton.me</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Privacy Policy -->
+        <section id="privacy" class="section">
+            <div class="container">
+                <h2 class="section-title">Privacy Policy</h2>
+                <div class="section-content">
+                    <p class="last-updated">Last updated: January 2025</p>
+                    
+                    <div class="privacy-content">
+                        <h3 class="subsection-title">Data Collection</h3>
+                        <p>
+                            The app does not collect, transmit, or store personal data outside your device. 
+                            All data (items, photos, places, tags) is stored locally using SwiftData. 
+                            The app does not use analytics or tracking services.
+                        </p>
+                        
+                        <h3 class="subsection-title">Data Storage</h3>
+                        <p>
+                            All data is stored locally on your device. Data is not transmitted to external servers. 
+                            Data is encrypted by iOS using standard device encryption.
+                        </p>
+                        
+                        <h3 class="subsection-title">Data Usage</h3>
+                        <p>
+                            Data is used only for app functionality. No data is shared with third parties.
+                        </p>
+                        
+                        <h3 class="subsection-title">User Rights</h3>
+                        <ul class="privacy-list">
+                            <li>Export data at any time (Settings → Export Data)</li>
+                            <li>Delete all data (Settings → Clear All Data)</li>
+                            <li>Uninstalling the app deletes all data</li>
+                        </ul>
+                        
+                        <h3 class="subsection-title">Permissions</h3>
+                        <ul class="privacy-list">
+                            <li><strong>Camera:</strong> for taking photos of items</li>
+                            <li><strong>Photo Library:</strong> for selecting images of items</li>
+                        </ul>
+                        <p>Permissions are requested only when needed for app functionality.</p>
+                        
+                        <h3 class="subsection-title">Policy Changes</h3>
+                        <p>
+                            Any changes to this privacy policy will be communicated in the app and updated on this page. 
+                            The "Last updated" date will reflect the most recent changes.
+                        </p>
+                        
+                        <h3 class="subsection-title">Contact</h3>
+                        <p>
+                            For privacy questions or concerns, please contact us at 
+                            <a href="mailto:where-stuff-support@proton.me" class="contact-link">where-stuff-support@proton.me</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2025 cybercrot. All rights reserved.
+            </p>
+            <p class="footer-updated">Last updated: January 2025</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+
